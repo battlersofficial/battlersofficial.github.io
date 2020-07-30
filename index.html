@@ -1,165 +1,202 @@
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
-    <script data-ad-client="ca-pub-1067204063800864" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>xBATTLERx Tournament</title>
-	<style type="text/css" media="screen">
-		*{
-			margin: 0;
-			padding: 0;
-			box-sizing: border-box;
-			font-family: helvetica;
-		}
-		body{
-			background-image: url('bg.jpg');
-			
-			/* Full height */
- 			height: 100%;
-	 		/* Center and scale the image nicely */
-  			background-position: center;
-  			background-repeat: no-repeat;
-			background-size: cover;
-
-		}
-		.main{
-			width: 500px;
-			margin: 50px auto;
-			border-radius: 10px;
-			border: 5px solid #dc143c;
-			border-left: 40px solid #dc143c;
-			box-shadow: 1px 2px 10px #555;
-		}
-		.info{
-			width: 100%;
-			background-color: #dc143c;
-			padding: 7px;
-			text-shadow: 1px 1px 1px #222;
-			color: #fff;
-			font-size: 20px;
-		}
-		.form-box{
-			padding: 20px;
-			background-color: #eee;
-		}
-		label{
-			color: navy;
-			font-size: 18px;
-		}
-		.inp,.msg-box{
-			width: 100%;
-			padding: 10px;
-			margin-top: 4px;
-			margin-bottom: 5px;
-			border-radius: 5px;
-			border: 2px solid #dc143c;
-			font-weight: bold;
-			color: #dc143c;
-			border-right: 15px solid #dc143c;
-			border-left: 15px solid #dc143c;
-			resize: none;
-		}
-		.msg-box{
-			height: 80px;
-		}
-		.inp:focus,.msg-box:focus{
-			outline: none;
-			border: 2px solid navy;
-			border-right: 15px solid navy;
-			border-left: 15px solid navy;
-		}
-		.sub-btn{
-			width: 100%;
-			padding: 10px;
-			border-radius: 5px;
-			margin-top: 5px;
-			border: none;
-			background: linear-gradient(#dc143c,#800000);
-			cursor: pointer;
-			color: #fff;
-			font-size: 20px;
-			text-shadow: 1px 1px 1px #444;
-		}
-		.sub-btn:hover{
-			background: linear-gradient(#800000,#dc143c);
-			opacity: 0.8;
-			transition: all ease-out 0.2s;
-		}
-		.sub-btn:focus{
-			outline: none;
-		}
-		@media(max-width: 720px){
-			.main{
-				width: 90%;
-			}
-		}
-	</style>
-</head>
-<body>
-<br>
-<h1 style="color:white;font-family:Forte;" align="center">xBATTLERx  GAMING</h1>
-	<div class="main">
-	    <div class="info" align="center" name="head">Sniper Kar-98 TDm Tournament (Duo)</div>
-		<div class="info" align="center">REGISTER YOUR TEAM HERE!</div>
-
-	
-<p>Registration Closes in</p>		
-<p id="demo"></p> 
-<style> 
-p { 
-  text-align: center; 
-  font-size: 30px; 
-} 
-</style> 
-<script> 
-var deadline = new Date("Jul 30, 2020 16:00:00").getTime(); 
-var x = setInterval(function() { 
-var now = new Date().getTime(); 
-var t = deadline - now; 
-var days = Math.floor(t / (1000 * 60 * 60 * 24)); 
-var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60)); 
-var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)); 
-var seconds = Math.floor((t % (1000 * 60)) / 1000); 
-document.getElementById("demo").innerHTML = days + "d "  
-+ hours + "h " + minutes + "m " + seconds + "s "; 
-
-    if (t < 0) { 
-
-        clearInterval(x); 
-
-        document.getElementById("demo").innerHTML = "EXPIRED"; 
-
-    } 
-}, 1000); 
+<title>xBATTLERx Official</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--// css -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- portfolio -->	
+<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="all">
+<!-- //portfolio -->	
+<!-- font -->
+<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+<!-- //font -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
 </script> 
 
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+</head>
+<body>
+	<!-- banner -->
+	<div class="banner">
+		<div class="agileinfo-dot">
+			<div class="agileits-logo">
+				<h1><a href="index.html">x<span>BATTLER</span>x</a></h1>
+			</div>
+			<div class="header-top">
+				<div class="container">
+					<div class="header-top-info">
+						<nav class="navbar navbar-default">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
 
-
-		<form action="mail_handler.php" method="post" name="form" class="form-box">
-
-			<label for="team">Team Name</label><br>
-			<input type="text" name="team" class="inp" placeholder="Enter Your Team Name" required><br>
-	
-			<label for="name1">Player 1</label><br>
-			<input type="text" name="name1" class="inp" placeholder="Enter Your Name" required><br>
-
-			<label for="name2">Player2</label><br>
-			<input type="text" name="name2" class="inp" placeholder="Enter Your Name" required><br>
-
-			<label for="email">Email ID</label><br>
-			<input type="email" name="email" class="inp" placeholder="Enter Your Email" required><br>
-
-			<label for="phone">Phone</label><br>
-			<input type="tel" name="phone" class="inp" placeholder="Enter Your Phone" required><br>
-
-			<label for="message">Message</label><br>
-			<textarea name="msg" class="msg-box" placeholder="Enter Your Message Here..." required></textarea><br>
-
-			<input type="submit" name="submit" value="Send" class="sub-btn">
-		</form>
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+								<nav>
+									<ul class="nav navbar-nav">
+										<li class="active"><a href="index.html">Home</a></li>
+										<li><a href="#about" class="scroll">Rules</a></li>
+										<li><a href="https://battlertournament.000webhostapp.com/" >Registration</a></li>
+										</ul>
+								</nav>
+							</div>
+							<!-- /.navbar-collapse -->
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="w3layouts-banner-info">
+				<div class="container">
+					<div class="w3layouts-banner-slider">
+						<div class="w3layouts-banner-top-slider">
+							<div class="slider">
+								<div class="callbacks_container">
+									<ul class="rslides callbacks callbacks1" id="slider4">
+										<li>
+											<div class="banner_text">
+												<h3>REGISTRATION</h3>
+												<p>TDM Kar-98 Sniper DUO</p>
+												<div class="w3-button">
+													<a href="https://battlertournament.000webhostapp.com/">Register Here</a>
+												</div>
+											</div>
+										</li>
+										
+								</div>
+								<div class="clearfix"> </div>
+								<script src="js/responsiveslides.min.js"></script>
+								<script>
+									// You can also use "$(window).load(function() {"
+									$(function () {
+									  // Slideshow 4
+									  $("#slider4").responsiveSlides({
+										auto: true,
+										pager:true,
+										nav:true,
+										speed: 500,
+										namespace: "callbacks",
+										before: function () {
+										  $('.events').append("<li>before event fired.</li>");
+										},
+										after: function () {
+										  $('.events').append("<li>after event fired.</li>");
+										}
+									  });
+								
+									});
+								 </script>
+								<!--banner Slider starts Here-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-</body>
+	<!-- //banner -->
+	<!-- about -->
+	<div class="about" id="about"> 
+		<div class="container"> 
+			<div class="welcome">
+				<div class="agileits-title"> 
+					<h2>Rules</h2>
+					<p>Use only Kar98 <br> 
+Nade can be used<br> 
+Can take Lv.3 vest & Helmet
+<br> No Team up 
+<br> No emulators or Hackers <br> 
+
+Wildcard : 
+Best Close Range Loser with Points will be Given a chance in ToP 8 Teams <br> Play with Your Skills
+ Be Ready on Time</p>
+				</div>
+			</div>
+			
+	
+
+
+<br><br><br><br><br><br><br><br>
+	<!-- //footer --> 
+	<!-- copyright -->
+	<div class="copyright">
+		<div class="container">
+			<p class="footer-class">© 2020 Battlersofficial   | Designed by  <a href="https://www.youtube.com/c/technicalcommunity" target="_blank">TechnicalCommunity</a> </p>
+		</div>
+	</div>
+	<!-- //copyright -->
+	<script src="js/jarallax.js"></script>
+	<!-- <script src="js/SmoothScroll.min.js"></script> -->
+	<script type="text/javascript">
+		/* init Jarallax */
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		})
+	</script>
+	<script src="js/responsiveslides.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	<!-- //here ends scrolling icon -->
+	<!-- Tabs-JavaScript -->
+	<script src="js/jquery.filterizr.js"></script>
+		<script src="js/controls.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('.filtr-container').filterizr();
+			});
+		</script>
+	<!-- //Tabs-JavaScript -->
+	<!-- PopUp-Box-JavaScript -->
+		<script src="js/jquery.chocolat.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('.filtr-item a').Chocolat();
+			});
+		</script>
+	<!-- //PopUp-Box-JavaScript -->
+</body>	
 </html>
